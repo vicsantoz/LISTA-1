@@ -1,0 +1,8 @@
+alturaParede = float (input(" Digite a altura da parede: "))
+larguraParede = float (input(" Digite a largura da parede: "))
+alturaAzulejo = float (input(" Digite a altura da azulejo: "))
+larguraAzulejo = float (input(" Digite a largura da azulejo: "))
+areaParede = (alturaParede) * (larguraParede)
+areaAzulejo = (alturaAzulejo) * (larguraAzulejo)
+quantAzulejo = (areaParede) / (areaAzulejo)
+print(" A quantidade de azulejos necesssarios para essa parede eh: " + str(quantAzulejo))

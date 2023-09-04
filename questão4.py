@@ -1,0 +1,6 @@
+ladoA = float(input(" Digite o ladoA, para calcular: "))
+ladoB = float(input(" Digite o ladoB, para calcular: "))
+calcArea = (ladoA) * (ladoB)
+print(" O calculo da area será: "  + str(calcArea))
+calcPerimetro = (2 * (ladoA)) + (2 * (ladoB))
+print(" O calculo do perimetro será: " + str(calcPerimetro))
